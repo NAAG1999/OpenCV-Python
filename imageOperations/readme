@@ -1,0 +1,5 @@
+This file includes how different operations on image provided are performed.
+
+Includes ROI (region of image) concept. 
+ROI tells us the the coordinates of each pixel on an image and if values are given to that variable then ROI is shaded accordingly with the colour provided in [].
+
