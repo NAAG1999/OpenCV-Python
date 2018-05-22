@@ -1,0 +1,3 @@
+Uses system's webcam to detect user face and eye with rectangle outline.
+To use the code, change the destination of the saved xml files taken from the folder.
+Run the code, enjoy
