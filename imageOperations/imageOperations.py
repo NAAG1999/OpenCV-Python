@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+#add here the location of your file
 img = cv2.imread('/home/nilesh/Desktop/Work/OpenCV/loadingImages/watch.jpg',cv2.IMREAD_COLOR)
 
 px = img[55,55]
