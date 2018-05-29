@@ -1,6 +1,7 @@
 import numpy as np
 import cv2
 
+#add here the location of your image file
 img = cv2.imread('/home/nilesh/Desktop/Work/OpenCV/loadingImages/watch.jpg',cv2.IMREAD_COLOR)
 
 cv2.line(img, (0,0), (150,150), (255,0,0), 15)
