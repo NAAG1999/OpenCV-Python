@@ -9,8 +9,8 @@ import cv2
 import numpy as np
 import sys
 
-facePath = ""
-smilePath = ""
+facePath = "C:\Users\Nilesh\Desktop\W01\OpenCV\OpenCV-Python\smileDetect"
+smilePath = "C:\Users\Nilesh\Desktop\W01\OpenCV\OpenCV-Python\smileDetect"
 faceCascade = cv2.CascadeClassifier(facePath)
 smileCascade = cv2.CascadeClassifier(smilePath)
 
