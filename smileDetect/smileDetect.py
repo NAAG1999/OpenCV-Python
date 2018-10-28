@@ -50,7 +50,8 @@ while True:
 
         # Set region of interest for smiles
         for (x, y, w, h) in smile:
-            print "Found", len(smile), "smiles!"
+            print ('Found') 
+            print (len(smile) + 'smiles!')
             cv2.rectangle(roi_color, (x, y), (x+w, y+h), (255, 0, 0), 1)
             #print "!!!!!!!!!!!!!!!!!"
 
